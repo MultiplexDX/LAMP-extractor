@@ -42,7 +42,7 @@ Finished plates are then scanned with a tablet running custom-designed software 
 - RNaseP - To identify poorly collected gargle specimens, presence of human genomic material testing in parallel (4µl inactivated sample input, 25 µl reaction volume, targeting RPP30, Supplementary Table 2) was introduced as well
 - SARS - Plates to indetify presence of COVID. Reaction volume is 50µl
 
-## Requierements
+## Requirements
 - Human validation of results
 - Extracting result from regular photo captured on tablet
 - Response should not takes more than 1s
