@@ -49,7 +49,6 @@ Finished plates are then scanned with a tablet running custom-designed software 
 - Be able to run offline
 
 # Proposed solution
-<img width="500" alt="assets/sample.jpg" src="assets/0_pipeline.png">
 
 ## Base algorithm
 Our approach is based on traditional computer vision techniques combined with neural network landmark detection.
