@@ -1,0 +1,35 @@
+backbone: mobilenet_v2
+batch_size: 16
+classes:
+- tleft
+- bleft
+- tright
+- bright
+device: cuda:0
+img_height: 352
+img_width: 352
+input_channels: 3
+interpolation: 0
+lr: 0.0001
+max_pixel_value: 1.0
+mean:
+- 127.73878619012717
+- 125.24344025796775
+- 127.05763748274597
+milestones:
+- 400
+- 600
+- 650
+num_epochs: 500
+num_features: 2
+num_points: 4
+out_dir: /home/developer/ml/projects/lamp-extractor-dl/out_corner
+resume_model: /home/developer/ml/projects/lamp-extractor-dl/out_corner/mobilenet_v2_02_aug/last_model.pth
+reuse_transform: false
+run_id: mobilenet_v2_02_aug_resume
+std:
+- 40.36888653705355
+- 41.892293147614716
+- 43.650270861178655
+train_datumaro_ann: /home/developer/ml/datasets/lamp-test-corners/model_tl_bl_tr_br/merged_split/annotations/train.json
+valid_datumaro_ann: /home/developer/ml/datasets/lamp-test-corners/model_tl_bl_tr_br/merged_split/annotations/valid.json

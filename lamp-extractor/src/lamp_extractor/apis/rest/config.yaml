@@ -1,0 +1,10 @@
+classes:
+  EMPTY: [[.20, .76]]
+  NEGATIVE: [[.76, .978]]
+  INCONCLUSIVE: [[0., .075], [.978, 1.0]]
+  POSITIVE: [[.075, .2]]
+findcorners_mode: net
+columns:  ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
+rows: ["H", "G", "F", "E", "D", "C", "B", "A"]
+cellSize: 16
+pratioThreshold: 0.1
