@@ -91,7 +91,7 @@ Licenses
 |          imageio 2.13.1         |                    BSD-2-Clause                |
 |         imantics 0.1.12         |                        MIT                     |
 |          imutils 0.5.4          |                        MIT                     |
-|       lamp-extractor 3.0.1      |     “Commons Clause” License Condition v1.0    |
+|       lamp-extractor 3.0.1      |         Apache 2.0 + Commons Clause 1.0        |
 |           loguru 0.5.3          |                        MIT                     |
 |         matplotlib 3.3.3        |                        PSF                     |
 |           numpy 1.21.4          |                        BSD                     |
